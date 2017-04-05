@@ -53,3 +53,16 @@ document.write("Datatype of float_str: " + typeof(float_str) + br);
 //
 bool_var = Boolean(134);
 document.write(br + "Boolean of 134 is: "+ bool_var + br);
+
+var rand_num1 = 378;
+var rand_num2 = 123;
+
+document.write(br + "Is 378 > 123? "+ (rand_num1 > rand_num2) + br);
+document.write("Is 378 >= 123? " + (rand_num1 >= rand_num2) + br);
+document.write("Is 378 < 123? " + (rand_num1 < rand_num2) + br);
+document.write("Is 378 <= 123? " + (rand_num1 <= rand_num2) + br);
+document.write("Is 378 == 123? " + (rand_num1 == rand_num2) + br);
+document.write("Is 378 != 123? " + (rand_num1 != rand_num2) + br);
+
+document.write(br + "Is 378 < 123 and 378 != 123" + ((rand_num1 < rand_num2) && (rand_num1 != rand_num2)) + br);
+document.write("Is 378 > 123 or 378 != 123" + ((rand_num1 > rand_num2) || (rand_num1 != rand_num2)) + br);
