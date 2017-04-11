@@ -113,3 +113,23 @@ switch (city) {
   default:
     document.write(br + "Nie wiem" + br);
 }
+
+// JS:Loops //
+
+var count = 1;
+
+while ( count <= 22 )
+{
+  if (count == 8)
+  {
+      break;
+  }
+  if(count % 2)
+  {
+    count++;
+    continue;
+  }
+
+  document.write(br + count + br);
+  count++;
+}
