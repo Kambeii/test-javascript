@@ -118,9 +118,13 @@ switch (city) {
 
 var count = 1;
 
-while ( count <= 22 )
+while (count <= 22)
 {
-  if (count == 8)
+  if (count >= 20)
+  {
+    count++;
+  }
+  if (count == 10)
   {
       break;
   }
@@ -130,6 +134,18 @@ while ( count <= 22 )
     continue;
   }
 
-  document.write(br + count + br);
+  document.write(count + br);
   count++;
+}
+
+var count = 120;
+
+do {
+  document.write(count + br);
+  count--;
+} while (count > 120);
+
+for (var count = 0; count <= 12; count++)
+{
+  document.write(count + br);
 }
