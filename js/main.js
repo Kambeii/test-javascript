@@ -118,7 +118,7 @@ switch (city) {
 
 var count = 1;
 
-while (count <= 22)
+while (count <= 22 )
 {
   if (count >= 20)
   {
