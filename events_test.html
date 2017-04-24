@@ -8,16 +8,26 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
-    <title>Function Test</title>
+    <title>Events Test</title>
+
+    <style>
+    #h3style
+    {
+      color:gray;
+    }
+    </style>
 
   </head>
 
-  	<body>
+  	<body onResize="changeImage();" onLoad="alert('Website Loaded');">
 
-      <script src="js/addfunction_2.js" language="javascript"></script>
       <noscript>
         <h3>Please enable Javascript in your browser. :)</h3>
 			</noscript>
+
+      <img src="MiniBrain.jpg" id="minibrain" onclick="alertMe();" ondblclick="console.log('You double clicked');" />
+
+      <script src="js/main_2.js" language="javascript"></script>
 
     </body>
 
