@@ -17,7 +17,7 @@
     }
     </style>
 
-    <script src="js/main_2.js" language="javascript"></script>
+
 
   </head>
 
@@ -30,17 +30,18 @@
 			</noscript>
 
       <img src="MiniBrain.jpg" id="minibrain" onclick="alertMe();" ondblclick="console.log('You double clicked');"/>
-      <h3 id="h3style" onmouseover="changeColor();" onmouseout="changeAgain();" onmousedown="changeText();">Rollover</h3>
+      <h3 id="h3style" onMouseOver="changeColor();" onMouseOut="changeAgain();" onMouseDown="changeText();">Rollover</h3>
         <p id="first">This is a paragraph</p>
         <p id="second">This is a paragraph</p>
         <p id="third">This is a paragraph</p>
 
         <form name="formex">
-          <input type="checkbox" name="firstpara" onclick="showPara();"/>First Paragraph </br>
-          <input type="checkbox" name="secondpara" onclick="showPara();"/>Second Paragraph </br>
-          <input type="checkbox" name="thirdpara" onclick="showPara();"/>Third Paragraph </br>
+          <input type="checkbox" name="firstpara" onClick="showPara();"/>First Paragraph </br>
+          <input type="checkbox" name="secondpara" onClick="showPara();"/>Second Paragraph </br>
+          <input type="checkbox" name="thirdpara" onClick="showPara();"/>Third Paragraph </br>
         </form>
 
+        <script src="js/main_2.js" language="javascript"></script>
     </body>
 
   </html>

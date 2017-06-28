@@ -40,5 +40,5 @@ function showPara()
   document.getElementById("first").style.visibility=(document.formex.firstpara.checked) ? "visible" : "hidden";
   document.getElementById("second").style.visibility=(document.formex.secondpara.checked) ? "visible" : "hidden";
   document.getElementById("third").style.visibility=(document.formex.thirdpara.checked) ? "visible" : "hidden";
-  return:true;
+  return true;
 }
