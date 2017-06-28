@@ -2,8 +2,8 @@ var minibrain = document.getElementById("minibrain");
 
 function changeImage()
 {
-  document.getElementById("minibrain").style.height="35%";
-  document.getElementById("minibrain").style.width="35%";
+  document.getElementById("minibrain").style.height="50%";
+  document.getElementById("minibrain").style.width="50%";
   return true;
 }
 
